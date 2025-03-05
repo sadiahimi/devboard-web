@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover New</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="">
+            <span class="bold">Dev<span class="highlight">Board</span></span>
+        </div>
+        <button class="back-button" onclick="window.location.href='index.html'">🔙 Back to Desk</button>
+    </header>
+
+    
+    <main class="discover-content">
+
+        <div class="qa-section">
+            <h2>1. What are the different ways to select an element in the DOM?</h2>
+            <p><b>Answer:</b> You can select an element in 4 simple ways:</p>
+            <ul>
+                <li><code>getElementById("id")</code> → Selects an element by its ID.</li>
+                <li><code>getElementsByClassName("class")</code> → Selects all elements with the same class.</li>
+                <li><code>getElementsByTagName("tag")</code> → Selects all elements with the same tag.</li>
+                <li><code>querySelector("selector")</code> → Selects the first matching element.</li>
+                <li><code>querySelectorAll("selector")</code> → Selects all matching elements.</li>
+            </ul>
+
+            <h2>2. What is the difference between innerHTML, innerText, and textContent?</h2>
+            <p><b>Answer:</b></p>
+            <ul>
+                <li><code>innerHTML</code> → Gets or sets HTML content inside an element.</li>
+                <li><code>innerText</code> → Gets only visible text, ignores hidden text.</li>
+                <li><code>textContent</code> → Gets all text, even hidden text.</li>
+            </ul>
+
+            <h2>3. What is event delegation in the DOM?</h2>
+            <p><b>Answer:</b> Instead of adding an event to many small elements, we add it to their parent. The event works for all child elements inside it.</p>
+
+            <h2>4. What is event bubbling in the DOM?</h2>
+            <p><b>Answer:</b> When an event happens on a child element, it moves up (bubbles) to its parent and then to the whole page.</p>
+
+            <h2>5. How do you create, add, and remove elements using JavaScript?</h2>
+            <p><b>Answer:</b></p>
+            <ul>
+                <li>**Create:** <code>document.createElement("tag")</code> → Creates a new element.</li>
+                <li>**Add:** <code>parent.appendChild(child)</code> → Adds an element inside another element.</li>
+                <li>**Remove:** <code>parent.removeChild(child)</code> → Deletes an element.</li>
+            </ul>
+        </div>
+    </main>
+
+</body>
+</html>
+
